@@ -1,0 +1,33 @@
+{
+    "stocks": [
+        {
+            "symbol": "RELIANCE.NS",
+            "target_price": 1200,
+            "alert_type": "above"
+        },
+        {
+            "symbol": "SBIN.NS",
+            "target_price": 1300,
+            "alert_type": "above"
+        },
+        {
+            "symbol": "INFY.NS",
+            "target_price": 1000,
+            "alert_type": "above"
+        }
+    ],
+    "check_interval": 60,
+    "email": {
+        "enabled": false,
+        "smtp_server": "smtp.gmail.com",
+        "smtp_port": 587,
+        "sender_email": "",
+        "sender_password": "",
+        "recipient_email": ""
+    },
+    "telegram": {
+        "enabled": true,
+        "bot_token": "8652372766:AAH_vGKUTJ-wcqDXfa6Cobg2qVn1NPAitvA",
+        "chat_id": "6170040360"
+    }
+}
